@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <title>Unit Converting Calculator</title>
-
-  <body>
-    <h1>Unit Converting Calculator</h1>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
+    <title>Unit Converting Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Unit Converting Calculator</h1>
+      <div id="gal-to-liter">
+        <form id="gal-convert">
+          <div class="form-group">
+            <label for="gal">Enter an amount of gallons that you wish to convert to Liters:</label>
+            <input class="form-control" id="gal" type="text">
+          </div>
+          <button type="submit" class="btn btn-info">Convert</button>
+        </form>
+        <div id="liter-output">
+
+        </div>
+      </div>
+      <div id="cup-to-floz">
+        <form id="cup-convert">
+          <div class="form-group">
+            <label for="cup">Enter an amount of cups that you wish to convert to fluid ounces:</label>
+            <input class="form-control" id="cup" type="text">
+          </div>
+          <button type="submit" class="btn btn-info">Convert</button>
+        </form>
+        <div id="floz-output">
+
+        </div>
+      </div>
+      <div id="quart-to-pint">
+        <form id="quart-convert">
+          <div class="form-group">
+            <label for="quart">Enter an amount of quarts that you wish to convert to pints:</label>
+            <input class="form-control" id="quart" type="text">
+          </div>
+          <button type="submit" class="btn btn-info">Convert</button>
+        </form>
+        <div id="pint-output">
+
+        </div>
+      </div>
+      <div id="lb-to-gram">
+        <form id="lb-convert">
+          <div class="form-group">
+            <label for="lb">Enter an amount of pounds that you wish to convert to grams:</label>
+            <input class="form-control" id="lb" type="text">
+          </div>
+          <button type="submit" class="btn btn-info">Convert</button>
+        </form>
+        <div id="gram-output">
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>
