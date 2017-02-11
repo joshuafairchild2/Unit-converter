@@ -33,4 +33,22 @@ $(function() {
 
 		event.preventDefault();
 	});
+
+	$("#quart-convert").submit(function(event) {
+		var quarts = parseInt($("#quart").val());
+		var pint = pintConvert(quarts);
+
+		$("#pint-output").text(pint);
+
+		event.preventDefault();
+	});
+
+	$("#lb-convert").submit(function(event) {
+		var pounds = parseInt($("#lb").val());
+		var grams = gramConvert(pounds);
+
+		$("#gram-output").text(grams);
+
+		event.preventDefault();
+	});
 });

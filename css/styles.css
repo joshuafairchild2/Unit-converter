@@ -1,0 +1,29 @@
+#gal-to-liter {
+  margin-top: 20px;
+  margin-right: 2px;
+  border: 3px solid black;
+  padding: 5px;
+  float: left;
+}
+
+#cup-to-floz {
+  margin-top: 20px;
+  border: 3px solid black;
+  padding: 5px;
+  float: left;
+}
+
+#quart-to-pint {
+  margin-top: 20px;
+  margin-right: 2px;
+  border: 3px solid black;
+  padding: 5px;
+  float: left;
+}
+
+#lb-to-gram {
+  margin-top: 20px;
+  border: 3px solid black;
+  padding: 5px;
+  float: left;
+}
