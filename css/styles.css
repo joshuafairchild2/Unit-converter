@@ -1,29 +1,53 @@
+/*for unit convertor*/
 #gal-to-liter {
   margin-top: 20px;
-  margin-right: 2px;
   border: 3px solid black;
   padding: 5px;
-  float: left;
 }
 
 #cup-to-floz {
   margin-top: 20px;
   border: 3px solid black;
   padding: 5px;
-  float: left;
 }
 
 #quart-to-pint {
   margin-top: 20px;
-  margin-right: 2px;
   border: 3px solid black;
   padding: 5px;
-  float: left;
 }
 
 #lb-to-gram {
   margin-top: 20px;
   border: 3px solid black;
   padding: 5px;
-  float: left;
+}
+
+#mile-to-km {
+  margin-top: 20px;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+#apple-to-orange {
+  margin-top: 20px;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+/*for calculator*/
+
+#add, #subtract, #multiply, #divide {
+  display: none;
+  border: 3px solid black;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#liter-result, #floz-result, #pint-result, #gram-result, #km-result, #orange-result {
+  display: none;
+}
+
+#add-result, #subtract-result, #multiply-result, #divide-result {
+  /*display: none;*/
 }
