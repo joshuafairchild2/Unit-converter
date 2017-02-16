@@ -49,5 +49,5 @@
 }
 
 #add-result, #subtract-result, #multiply-result, #divide-result {
-  /*display: none;*/
+  display: none;
 }

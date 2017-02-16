@@ -141,34 +141,37 @@ $(function() {
     var number1 = parseInt($("#no1").val());
     var number2 = parseInt($("#no2").val());
     var result = (add(number1, number2));
-
+		$("#add-result").show();
     $("#result-add").text(result);
 
     event.preventDefault();
   });
 
   $("form#subtract").submit(function(event) {
-    var number1 = parseInt($("#no1").val());
-    var number2 = parseInt($("#no2").val());
+    var number1 = parseInt($("#sub1").val());
+    var number2 = parseInt($("#sub2").val());
     var result = (subtract(number1, number2));
+		$("#subtract-result").show();
     $("#result-subtract").text(result);
 
     event.preventDefault();
   });
 
   $("form#multiply").submit(function(event) {
-    var number1 = parseInt($("#no1").val());
-    var number2 = parseInt($("#no2").val());
+    var number1 = parseInt($("#mul1").val());
+    var number2 = parseInt($("#mul2").val());
     var result = (multiply(number1, number2));
+		$("#multiply-result").show();
     $("#result-multiply").text(result);
 
     event.preventDefault();
   });
 
   $("form#divide").submit(function(event) {
-    var number1 = parseInt($("#no1").val());
-    var number2 = parseInt($("#no2").val());
+    var number1 = parseInt($("#div1").val());
+    var number2 = parseInt($("#div2").val());
     var result = (divide(number1, number2));
+		$("#divide-result").show();
     $("#result-divide").text(result);
 
     event.preventDefault();
